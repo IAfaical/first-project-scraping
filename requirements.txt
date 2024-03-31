@@ -1,0 +1,6 @@
+fastapi
+pandas
+pymongo
+detoxify
+beautifulsoup4
+uvicorn
