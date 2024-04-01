@@ -4,7 +4,7 @@ from fastapi import HTTPException
 import pandas as pd
 
 
-def scrape_posts(url: str = 'https://mbasic.facebook.com/groups/526003374274383/?hoisted_section_header_type=recently_seen&multi_permalinks=2353777014830334', cookie : str):
+def scrape_posts(url: str = 'https://www.facebook.com/', cookie : str):
     try:
         # Send a GET request to the URL with the account cookie
         response = requests.get(url, headers={'cookie':cookie})
